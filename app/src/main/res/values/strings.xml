@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Read</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_homepage">Homapage</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_title">MY ECO APP*2</string>
+    <string name="title_activity_tv">TV</string>
+    <string name="title_activity_offline_chart">Chart</string>
+    <string name="title_activity_dryer">Dryer</string>
+    <string name="title_activity_fridge">Fridge</string>
+    <string name="title_activity_other_appliances">Other Appliances</string>
+    <string name="title_activity_efficiency">Efficiency Calculator</string>
+    <string name="title_activity_quick_tips">Quick Tips</string>
+    <string name="title_activity_energy_ticks">Energy Ticks</string>
+    <string name="title_activity_real_time_graph">Real Time Graph</string>
+    <string name="title_activity_chart_test">ChartTest</string>
+
+
+</resources>

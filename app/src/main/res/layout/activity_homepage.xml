@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/background">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:weightSum="1">
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:text="Quick Tips"
+            android:id="@+id/btnQuickTips" />
+        <Button
+            android:layout_height="match_parent"
+            android:layout_weight=".5"
+            android:layout_width="0dp"
+            android:text="Energy Tips"
+            android:id="@+id/btnEnergyInfo" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="2">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dp"
+        android:id="@+id/btnTV"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tv"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dp"
+        android:id="@+id/btnFridge"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/fridge"
+        android:background="@null" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_weight="1"
+    android:weightSum="1">
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dp"
+        android:id="@+id/btnWasherDryer"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/dryer"
+        android:background="@null" />
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:layout_width="0dp"
+        android:id="@+id/btnOtherAppliances"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/otherappliances"
+        android:background="@null" />
+
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
